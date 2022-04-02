@@ -42,10 +42,7 @@
 
 /* ========================================== MEDIA QUERIES ======================== */
 @media screen and (max-width: 1024px) {
-    .space {
-        margin-top: 170px;
-    }
-    .skills__container {
+   .skills__container {
       grid-template-columns: 1fr;
     }
 
@@ -69,5 +66,23 @@
         width: 100%;
         padding: 2rem 1rem;
         margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    #skills {
+        margin-top: 20rem;
+    }
+}
+
+@media screen and (max-width: 358px) {
+    #skills {
+        margin-top: 25rem;
+    }
+}
+
+@media screen and (max-width: 332px) {
+    #skills {
+        margin-top: 30rem;
     }
 }

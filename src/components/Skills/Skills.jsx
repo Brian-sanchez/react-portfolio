@@ -19,7 +19,6 @@ import './Skills.css';
 const Skills = () => {
   return (
     <section id='skills'>
-      <div className='space'></div>
       <h5>What Skills I Have</h5>
       <h2>My Skills</h2>
 

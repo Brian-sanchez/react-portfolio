@@ -72,10 +72,6 @@
 
 /* ========================================== MEDIA QUERIES ======================== */
 @media screen and (max-width: 1024px) {
-    .space1 {
-        margin-top: -360px;
-    }
-
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;

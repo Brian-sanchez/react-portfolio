@@ -6,7 +6,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <section className='footer' id='footer'>
       <a href='#' className='footer__logo'>BRIAN SANCHEZ</a>
 
       <ul className='pageLinks'>
@@ -25,8 +25,8 @@ const Footer = () => {
       <div className='footer__copyright'>
         <small>© 2022 Brian Sanchez, All rights reserved</small>
       </div>
-    </footer>
+    </section>
   )
 }
 
-export default Footer
+export default Footer;

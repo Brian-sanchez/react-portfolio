@@ -1,7 +1,3 @@
-.space2 {
-    margin-top: 100px;
-}
-
 .container.contact__container {
     width: 58%;
     display: grid;
@@ -65,10 +61,6 @@ input, textarea {
 }
   
 @media screen and (max-width: 600px) {
-    .space2 {
-        margin-top: 600px;
-    }
-
     .container.contact__container {
       width: var(--container-width-ms);
     }

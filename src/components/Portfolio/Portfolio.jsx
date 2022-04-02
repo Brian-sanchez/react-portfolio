@@ -34,7 +34,7 @@ const data = [
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
+    <section id='portfolio' className='portfolio__section'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
@@ -63,4 +63,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;
