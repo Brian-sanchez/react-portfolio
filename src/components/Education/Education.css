@@ -1,0 +1,51 @@
+.education__data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.info {
+    margin-bottom: 1.5rem;
+}
+
+.info small {
+    color: var(--color-light);
+}
+
+.education__rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+.education__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--color-primary-variant);
+    transform: translate(6px, -7px);
+}
+
+.education__calendar {
+    display: flex;
+    align-items: center;
+    color: var(--color-light);
+}
+
+.education__calendar p {
+    margin-left: 1rem;
+}
+
+/* ========================================== MEDIA QUERIES ======================== */
+  @media screen and (max-width: 600px) {
+    .education__data {
+        column-gap: 0.5rem;
+    }
+
+    .info {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+}
