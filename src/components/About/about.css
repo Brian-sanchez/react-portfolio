@@ -23,10 +23,12 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    filter: grayscale();
 }
 
 .about__me-image:hover {
     transform: rotate(0);
+    filter: none;
 }
 
 .about__cards {

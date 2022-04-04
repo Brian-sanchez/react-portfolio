@@ -1,5 +1,5 @@
 import React from 'react';
-import ME from '../../assets/images/me.jpg';
+import ME from '../../assets/images/me.png';
 import { FaAward } from 'react-icons/fa';
 import { GiGraduateCap } from 'react-icons/gi';
 
