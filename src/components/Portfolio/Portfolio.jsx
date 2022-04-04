@@ -10,25 +10,25 @@ const data = [
     id: 1,
     image: img1,
     title: 'SPA Dog',
-    description: 'Esta es una pagina web hecha con react, redux, html, css, javascript, etc',
+    description: "It's about a single page application about dogs and it was made with: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize and PostreSQL.",
     github: 'https://github.com/Brian-sanchez/Pi-Dogs-Brian-Sanchez',
-    demo: ''
+    demo: 'https://youtu.be/wPCTq3NS7eU'
   },
   {
     id: 2,
     image: img2,
     title: 'First Portfolio',
-    description: 'My first Portfolio',
+    description: "It's about a the first version of my web portfolio, made with: HTML, CSS and JavaScript.",
     github: 'https://github.com/Brian-sanchez/Portfolio',
     demo: 'https://brian-sanchez.github.io/Portfolio/'
   },
   {
     id: 3,
     image: img3,
-    title: 'Argentina',
-    description: 'A react app ',
-    github: '',
-    demo: ''
+    title: 'Argentine national team',
+    description: "It's about a team creator with players from the Argentine national team, made with: HTML, CSS, Sass, React, Redux and JavaScript..",
+    github: 'https://github.com/Brian-sanchez/seleccion-argentina',
+    demo: 'https://brian-sanchez.github.io/seleccion-argentina/'
   }
 ]
 

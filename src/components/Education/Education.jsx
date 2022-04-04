@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { BiCalendarEvent } from 'react-icons/bi';
 
 import './Education.css';

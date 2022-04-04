@@ -4,10 +4,11 @@ import { FaAward } from 'react-icons/fa';
 import { GiGraduateCap } from 'react-icons/gi';
 
 import './about.css';
+import 'animate.css';
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id='about' className='animate__animated animate__fadeInUp'>
       <div className='space1'></div>
       <h5>Get to know</h5>
       <h2>About Me</h2>

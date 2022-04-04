@@ -1,5 +1,4 @@
 import React from 'react';
-import './Nav.css';
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
@@ -7,6 +6,8 @@ import { BiCodeBlock } from 'react-icons/bi';
 import { MdWork } from 'react-icons/md';
 import { BiMessageSquareDetail } from 'react-icons/bi';
 import { useState } from 'react';
+
+import './Nav.css';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');

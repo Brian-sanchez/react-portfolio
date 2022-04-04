@@ -11,6 +11,10 @@ header {
     position: relative;
 }
 
+.animate__animated.animate__fadeIn {
+  color: var(--color-light);
+}
+
 /* =========================== CTA =========================== */
 .cta {
     margin-top: 2.5rem;
