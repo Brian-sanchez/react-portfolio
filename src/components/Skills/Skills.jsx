@@ -14,6 +14,16 @@ import { SiExpress } from 'react-icons/si';
 import { SiPostgresql } from 'react-icons/si';
 import { SiSequelize } from 'react-icons/si';
 
+import { SiGit } from 'react-icons/si';
+import { SiAdobephotoshop } from 'react-icons/si';
+import { SiPostman } from 'react-icons/si';
+
+import { BsLightbulbFill } from 'react-icons/bs';
+import { RiTeamFill } from 'react-icons/ri';
+import { BiTimeFive } from 'react-icons/bi';
+import { FaUserTie } from 'react-icons/fa';
+import { BiBrain } from 'react-icons/bi';
+
 import './Skills.css';
 
 const Skills = () => {
@@ -100,9 +110,58 @@ const Skills = () => {
             <small className='text-light'>Basic</small>
           </article>
         </div>
+
+        <div className='skills__other'>
+          <h3>Other Skills</h3>
+          <article className='skills__details'>
+            <SiGit className='skills__details-icon'/>
+            <h4>Git</h4>
+            <small className='text-light'>Intermediate</small>
+          </article>
+
+          <article className='skills__details'>
+            <SiAdobephotoshop className='skills__details-icon'/>
+            <h4>Photoshop</h4>
+            <small className='text-light'>Intermediate</small>
+          </article>
+
+          <article className='skills__details'>
+            <SiPostman className='skills__details-icon'/>
+            <h4>Postman</h4>
+            <small className='text-light'>Basic</small>
+          </article>
+        </div>
+
+        <div className='skills__soft'>
+          <h3>Soft Skills</h3>
+          <article className='skills__details'>
+            <BsLightbulbFill className='skills__details-icon'/>
+            <h4>Creative</h4>
+          </article>
+
+          <article className='skills__details'>
+            <RiTeamFill className='skills__details-icon'/>
+            <h4>Teamworker</h4>
+          </article>
+
+          <article className='skills__details'>
+            <BiTimeFive className='skills__details-icon'/>
+            <h4>Organized</h4>
+          </article>
+
+          <article className='skills__details'>
+            <FaUserTie className='skills__details-icon'/>
+            <h4>Responsable</h4>
+          </article>
+
+          <article className='skills__details'>
+            <BiBrain className='skills__details-icon'/>
+            <h4>Fast learning</h4>
+          </article>
+        </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Skills;

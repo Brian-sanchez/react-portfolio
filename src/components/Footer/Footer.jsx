@@ -26,7 +26,7 @@ const Footer = () => {
         <small>© 2022 Brian Sanchez, All rights reserved</small>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Footer;

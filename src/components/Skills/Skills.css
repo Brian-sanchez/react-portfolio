@@ -35,6 +35,10 @@
     gap: 1rem;
 }
 
+.skills__details small{
+    margin-top: 3px
+}
+
 .skills__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
@@ -64,25 +68,13 @@
 
     .skills__container > div {
         width: 100%;
-        padding: 2rem 1rem;
+        padding: 2rem 2rem;
         margin-bottom: 1rem;
     }
-}
 
-@media screen and (max-width: 361px) {
-    #skills {
-        margin-top: 20rem;
+    .skills__details {
+        align-items: center;
     }
 }
 
-@media screen and (max-width: 358px) {
-    #skills {
-        margin-top: 25rem;
-    }
-}
 
-@media screen and (max-width: 332px) {
-    #skills {
-        margin-top: 30rem;
-    }
-}

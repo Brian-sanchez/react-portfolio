@@ -1,4 +1,5 @@
 import React from 'react';
+
 import img1 from '../../assets/images/portfolio1.png';
 import img2 from '../../assets/images/portfolio2.png';
 import img3 from '../../assets/images/portfolio3.png';
@@ -30,7 +31,7 @@ const data = [
     github: 'https://github.com/Brian-sanchez/seleccion-argentina',
     demo: 'https://brian-sanchez.github.io/seleccion-argentina/'
   }
-]
+];
 
 const Portfolio = () => {
   return (
@@ -60,7 +61,7 @@ const Portfolio = () => {
         }
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Portfolio;

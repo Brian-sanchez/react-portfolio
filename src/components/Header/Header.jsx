@@ -19,7 +19,7 @@ const Header = () => {
         <a href='#contact' className='scroll__down'>Scroll Down</a>
       </div> 
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import About from './components/About/aboutMe';
@@ -22,6 +20,6 @@ function App() {
       <Footer/>
     </div>
   );
-}
+};
 
 export default App;
