@@ -30,6 +30,30 @@ const data = [
     description: "It's about a team creator with players from the Argentine national team, made with: HTML, CSS, Sass, React, Redux and JavaScript..",
     github: 'https://github.com/Brian-sanchez/seleccion-argentina',
     demo: 'https://brian-sanchez.github.io/seleccion-argentina/'
+  },
+  {
+    id: 4,
+    image: img3,
+    title: 'SPA Countries',
+    description: "It's about a team creator with players from the Argentine national team, made with: HTML, CSS, Sass, React, Redux and JavaScript..",
+    github: 'https://github.com/Brian-sanchez/seleccion-argentina',
+    demo: 'https://pi-countries-frontend-87hdhew68-brian-sanchez.vercel.app'
+  },
+  {
+    id: 5,
+    image: img3,
+    title: 'SPA Pokemon',
+    description: "It's about a team creator with players from the Argentine national team, made with: HTML, CSS, Sass, React, Redux and JavaScript..",
+    github: 'https://github.com/Brian-sanchez/seleccion-argentina',
+    demo: 'https://brian-sanchez.github.io/seleccion-argentina/'
+  },
+  {
+    id: 6,
+    image: img3,
+    title: 'Tech Store',
+    description: "It's about a team creator with players from the Argentine national team, made with: HTML, CSS, Sass, React, Redux and JavaScript..",
+    github: 'https://github.com/Brian-sanchez/seleccion-argentina',
+    demo: 'https://precious-valkyrie-e1df5b.netlify.app'
   }
 ];
 
