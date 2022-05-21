@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.83b7f068.css",
-    "main.js": "/react-portfolio/static/js/main.75fb95b6.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/header.mp4": "/react-portfolio/static/media/header.22acab75d452957cc30b.mp4",
-    "static/media/portfolio4.png": "/react-portfolio/static/media/portfolio4.be941c3f895c140beea7.png",
-    "static/media/portfolio1.png": "/react-portfolio/static/media/portfolio1.be28f3e9d02f182ae548.png",
-    "static/media/portfolio6.png": "/react-portfolio/static/media/portfolio6.83d3fed28088234cae66.png",
-    "static/media/portfolio5.png": "/react-portfolio/static/media/portfolio5.b6e444e79a27cb21799a.png",
-    "static/media/portfolio2.png": "/react-portfolio/static/media/portfolio2.66f91074748ef80ab125.png",
-    "static/media/Brian-Sanchez-CV.pdf": "/react-portfolio/static/media/Brian-Sanchez-CV.8b33fe6f24054b3d062a.pdf",
-    "static/media/me.png": "/react-portfolio/static/media/me.838a7ae3822c4cfda893.png",
-    "static/media/portfolio3.png": "/react-portfolio/static/media/portfolio3.ad6c66a90f91d8178c2f.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.83b7f068.css.map": "/react-portfolio/static/css/main.83b7f068.css.map",
-    "main.75fb95b6.js.map": "/react-portfolio/static/js/main.75fb95b6.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.83b7f068.css",
+    "main.js": "/static/js/main.30f76a3b.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/header.mp4": "/static/media/header.22acab75d452957cc30b.mp4",
+    "static/media/portfolio4.png": "/static/media/portfolio4.be941c3f895c140beea7.png",
+    "static/media/portfolio1.png": "/static/media/portfolio1.be28f3e9d02f182ae548.png",
+    "static/media/portfolio6.png": "/static/media/portfolio6.83d3fed28088234cae66.png",
+    "static/media/portfolio5.png": "/static/media/portfolio5.b6e444e79a27cb21799a.png",
+    "static/media/portfolio2.png": "/static/media/portfolio2.66f91074748ef80ab125.png",
+    "static/media/Brian-Sanchez-CV.pdf": "/static/media/Brian-Sanchez-CV.8b33fe6f24054b3d062a.pdf",
+    "static/media/me.png": "/static/media/me.838a7ae3822c4cfda893.png",
+    "static/media/portfolio3.png": "/static/media/portfolio3.ad6c66a90f91d8178c2f.png",
+    "index.html": "/index.html",
+    "main.83b7f068.css.map": "/static/css/main.83b7f068.css.map",
+    "main.30f76a3b.js.map": "/static/js/main.30f76a3b.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83b7f068.css",
-    "static/js/main.75fb95b6.js"
+    "static/js/main.30f76a3b.js"
   ]
 }
