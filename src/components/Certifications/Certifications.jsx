@@ -1,4 +1,13 @@
 import React from 'react';
+/*
+import certificate1 from "";
+
+const certificates = [
+  {
+
+  },
+]
+*/
 
 const Certifications = () => {
   return (

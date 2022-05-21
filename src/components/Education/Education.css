@@ -18,6 +18,8 @@
     height: 13px;
     background-color: var(--color-primary);
     border-radius: 50%;
+    z-index: 1;
+    position: relative;
 }
 
 .education__line {
@@ -25,7 +27,7 @@
     width: 1px;
     height: 100%;
     background-color: var(--color-primary-variant);
-    transform: translate(6px, -7px);
+    transform: translate(6px, -9px);
 }
 
 .education__calendar {

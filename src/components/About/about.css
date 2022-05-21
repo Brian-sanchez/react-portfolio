@@ -1,3 +1,11 @@
+.space1 {
+    background-color: transparent;
+    padding: 1rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 15px 20px var(--color-bg);
+}
+
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;

@@ -52,6 +52,16 @@ input, textarea {
     color: var(--color-white);
 }
 
+input:focus {
+    border: 2px solid var(--color-white);
+    transition: 0.5s;
+}
+
+textarea:focus {
+    border: 2px solid var(--color-white);
+    transition: 0.5s;
+}
+
 /* ========================================== MEDIA QUERIES ======================== */
 @media screen and (max-width: 1024px) {
     .container.contact__container {

@@ -32,6 +32,12 @@ nav a.active {
     color: var(--color-white);
 }
 
+@media screen and (max-width: 450px) {
+    #edu {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 346px) {
     nav {
         padding: 0.7rem 0.7rem;

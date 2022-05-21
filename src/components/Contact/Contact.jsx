@@ -17,9 +17,9 @@ const Contact = () => {
 
     emailjs.sendForm('service_r0j08bt', 'template_gqif6ac', form.current, 'LO7ZfoTe-ZFhgrW8y')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
 
       e.target.reset();
@@ -37,14 +37,14 @@ const Contact = () => {
             <MdOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>briansanchezc17@gmail.com</h5>
-            <a href='mailto:briansanchezc17@gmail.com' target='_blank'>Send a message</a>
+            <a href='mailto:briansanchezc17@gmail.com' target='_blank' rel='noreferrer'>Send a message</a>
           </article>
 
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>+54 11 6710-4993</h5>
-            <a href='https://api.whatsapp.com/send/?phone=541167104993&text&app_absent=0' target='_blank'>Send a message</a>
+            <a href='https://api.whatsapp.com/send/?phone=541167104993&text&app_absent=0' target='_blank' rel='noreferrer'>Send a message</a>
           </article>
         </div>
 
