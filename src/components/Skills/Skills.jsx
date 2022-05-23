@@ -8,6 +8,7 @@ import { DiReact } from 'react-icons/di';
 import { SiTypescript } from 'react-icons/si';
 import { SiRedux } from 'react-icons/si';
 import { SiBootstrap } from 'react-icons/si';
+import { SiTailwindcss } from 'react-icons/si';
 
 import { DiNodejsSmall } from 'react-icons/di';
 import { SiExpress } from 'react-icons/si';
@@ -42,6 +43,12 @@ const Skills = () => {
           </article>
 
           <article className='skills__details'>
+            <DiJavascript1 className='skills__details-icon'/>
+            <h4>JavaScript</h4>
+            <small className='text-light'>Advanced</small>
+          </article>
+
+          <article className='skills__details'>
             <DiCss3 className='skills__details-icon'/>
             <h4>CSS</h4>
             <small className='text-light'>Intermediate</small>
@@ -50,12 +57,6 @@ const Skills = () => {
           <article className='skills__details'>
             <DiSass className='skills__details-icon'/>
             <h4>Sass</h4>
-            <small className='text-light'>Intermediate</small>
-          </article>
-
-          <article className='skills__details'>
-            <DiJavascript1 className='skills__details-icon'/>
-            <h4>JavaScript</h4>
             <small className='text-light'>Intermediate</small>
           </article>
 
@@ -72,16 +73,38 @@ const Skills = () => {
           </article>
 
           <article className='skills__details'>
+            <SiBootstrap className='skills__details-icon'/>
+            <h4>Bootstrap</h4>
+            <small className='text-light'>Intermediate</small>
+          </article>
+
+          <article className='skills__details'>
+            <SiTailwindcss className='skills__details-icon'/>
+            <h4>Tailwind CSS</h4>
+            <small className='text-light'>Basic</small>
+          </article>
+
+          <article className='skills__details'>
             <SiTypescript className='skills__details-icon'/>
             <h4>Typescript</h4>
             <small className='text-light'>Basic</small>
           </article>
 
-          <article className='skills__details'>
-            <SiBootstrap className='skills__details-icon'/>
-            <h4>Bootstrap</h4>
-            <small className='text-light'>Intermediate</small>
-          </article>
+          {
+            /*
+              <article className='skills__details'>
+                <SiSequelize className='skills__details-icon'/>
+                <h4>Angular</h4>
+                <small className='text-light'>Basic</small>
+              </article>
+
+                <article className='skills__details'>
+                <SiSequelize className='skills__details-icon'/>
+                <h4>SQL</h4>
+                <small className='text-light'>Basic</small>
+              </article>
+            */
+          }
         </div>
 
         <div className='skills__backend'>
@@ -109,6 +132,45 @@ const Skills = () => {
             <h4>Sequelize</h4>
             <small className='text-light'>Basic</small>
           </article>
+
+          { /* Proximamente...
+              <article className='skills__details'>
+                <SiSequelize className='skills__details-icon'/>
+                <h4>Mongo DB</h4>
+                <small className='text-light'>Basic</small>
+              </article>
+
+              <article className='skills__details'>
+                <SiSequelize className='skills__details-icon'/>
+                <h4>SQL</h4>
+                <small className='text-light'>Basic</small>
+              </article>
+
+              <article className='skills__details'>
+                <SiSequelize className='skills__details-icon'/>
+                <h4>MySQL</h4>
+                <small className='text-light'>Basic</small>
+              </article>
+
+              <article className='skills__details'>
+                <SiSequelize className='skills__details-icon'/>
+                <h4>Java</h4>
+                <small className='text-light'>Basic</small>
+              </article>
+
+              <article className='skills__details'>
+                <SiSequelize className='skills__details-icon'/>
+                <h4>PHP</h4>
+                <small className='text-light'>Basic</small>
+              </article>
+
+              <article className='skills__details'>
+                <SiSequelize className='skills__details-icon'/>
+                <h4>Django</h4>
+                <small className='text-light'>Basic</small>
+              </article>
+            */
+          }
         </div>
 
         <div className='skills__other'>
@@ -128,7 +190,7 @@ const Skills = () => {
           <article className='skills__details'>
             <SiPostman className='skills__details-icon'/>
             <h4>Postman</h4>
-            <small className='text-light'>Basic</small>
+            <small className='text-light'>Intermediate</small>
           </article>
         </div>
 
