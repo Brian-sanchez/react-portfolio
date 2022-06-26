@@ -1,24 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.83b7f068.css",
-    "main.js": "/static/js/main.7b359c5c.js",
+    "main.css": "/static/css/main.c8ff9516.css",
+    "main.js": "/static/js/main.86cd8afa.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/header.mp4": "/static/media/header.22acab75d452957cc30b.mp4",
+    "static/media/Certificado Fundamentos Agilidad.png": "/static/media/Certificado Fundamentos Agilidad.f1f7593282089cf13dc7.png",
+    "static/media/Certificado Front End.png": "/static/media/Certificado Front End.6cb485d2808fee5ba5b5.png",
+    "static/media/Git y GitHub.png": "/static/media/Git y GitHub.48c55f7a41cd89c8e1bf.png",
+    "static/media/Certificado Full Stack UTN.png": "/static/media/Certificado Full Stack UTN.b4ac0fc2f793782b2966.png",
     "static/media/portfolio4.png": "/static/media/portfolio4.be941c3f895c140beea7.png",
     "static/media/portfolio1.png": "/static/media/portfolio1.be28f3e9d02f182ae548.png",
     "static/media/portfolio6.png": "/static/media/portfolio6.83d3fed28088234cae66.png",
     "static/media/portfolio5.png": "/static/media/portfolio5.b6e444e79a27cb21799a.png",
     "static/media/portfolio2.png": "/static/media/portfolio2.66f91074748ef80ab125.png",
+    "static/media/Certificado Full Stack Web Developer.png": "/static/media/Certificado Full Stack Web Developer.2dff9882b87e8755d58f.png",
     "static/media/me.png": "/static/media/me.838a7ae3822c4cfda893.png",
-    "static/media/Brian-Sanchez-CV.pdf": "/static/media/Brian-Sanchez-CV.a225f129126bb45d27fc.pdf",
+    "static/media/portfolio7.png": "/static/media/portfolio7.2adbd47943946bd2508f.png",
     "static/media/portfolio3.png": "/static/media/portfolio3.ad6c66a90f91d8178c2f.png",
+    "static/media/portfolio8.png": "/static/media/portfolio8.1902595144fed0fb0653.png",
+    "static/media/Brian Sanchez CV.pdf": "/static/media/Brian Sanchez CV.48c1eb76a988ad1b1951.pdf",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
-    "main.83b7f068.css.map": "/static/css/main.83b7f068.css.map",
-    "main.7b359c5c.js.map": "/static/js/main.7b359c5c.js.map",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.c8ff9516.css.map": "/static/css/main.c8ff9516.css.map",
+    "main.86cd8afa.js.map": "/static/js/main.86cd8afa.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83b7f068.css",
-    "static/js/main.7b359c5c.js"
+    "static/css/main.c8ff9516.css",
+    "static/js/main.86cd8afa.js"
   ]
 }
