@@ -151,7 +151,7 @@ const Skills = () => {
           <article className='skills__details'>
             <GrMysql className='skills__details-icon'/>
             <h4>MySQL</h4>
-            <small className='text-light'>Intermediate</small>
+            <small className='text-light'>Basic</small>
           </article>
 
           { /* Proximamente...
