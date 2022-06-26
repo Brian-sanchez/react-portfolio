@@ -12,7 +12,10 @@ import { SiTailwindcss } from 'react-icons/si';
 
 import { DiNodejsSmall } from 'react-icons/di';
 import { SiExpress } from 'react-icons/si';
+import { SiJava } from 'react-icons/si';
+import { FaDatabase } from 'react-icons/fa';
 import { SiPostgresql } from 'react-icons/si';
+import { GrMysql } from 'react-icons/gr';
 import { SiSequelize } from 'react-icons/si';
 
 import { SiGit } from 'react-icons/si';
@@ -51,7 +54,7 @@ const Skills = () => {
           <article className='skills__details'>
             <DiCss3 className='skills__details-icon'/>
             <h4>CSS</h4>
-            <small className='text-light'>Intermediate</small>
+            <small className='text-light'>Advanced</small>
           </article>
 
           <article className='skills__details'>
@@ -122,8 +125,8 @@ const Skills = () => {
           </article>
 
           <article className='skills__details'>
-            <SiPostgresql className='skills__details-icon'/>
-            <h4>PostgreSQL</h4>
+            <SiJava className='skills__details-icon'/>
+            <h4>Java</h4>
             <small className='text-light'>Basic</small>
           </article>
 
@@ -133,28 +136,28 @@ const Skills = () => {
             <small className='text-light'>Basic</small>
           </article>
 
+          <article className='skills__details'>
+            <FaDatabase className='skills__details-icon'/>
+            <h4>SQL</h4>
+            <small className='text-light'>Basic</small>
+          </article>
+
+          <article className='skills__details'>
+            <SiPostgresql className='skills__details-icon'/>
+            <h4>PostgreSQL</h4>
+            <small className='text-light'>Basic</small>
+          </article>
+
+          <article className='skills__details'>
+            <GrMysql className='skills__details-icon'/>
+            <h4>MySQL</h4>
+            <small className='text-light'>Intermediate</small>
+          </article>
+
           { /* Proximamente...
               <article className='skills__details'>
                 <SiSequelize className='skills__details-icon'/>
                 <h4>Mongo DB</h4>
-                <small className='text-light'>Basic</small>
-              </article>
-
-              <article className='skills__details'>
-                <SiSequelize className='skills__details-icon'/>
-                <h4>SQL</h4>
-                <small className='text-light'>Basic</small>
-              </article>
-
-              <article className='skills__details'>
-                <SiSequelize className='skills__details-icon'/>
-                <h4>MySQL</h4>
-                <small className='text-light'>Basic</small>
-              </article>
-
-              <article className='skills__details'>
-                <SiSequelize className='skills__details-icon'/>
-                <h4>Java</h4>
                 <small className='text-light'>Basic</small>
               </article>
 

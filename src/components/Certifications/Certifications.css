@@ -1,0 +1,19 @@
+.certifications_images {
+    max-width: 45rem;
+    margin: auto;
+}
+
+/* ========================================== MEDIA QUERIES ======================== */
+@media screen and (max-width: 600px) {
+    .slick-prev:before {
+        content: none;
+    }
+
+    .slick-next:before {
+        content: none;
+    }
+
+    .certifications_images {
+        margin: 0;
+    }
+}

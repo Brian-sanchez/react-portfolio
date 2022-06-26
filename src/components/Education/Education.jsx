@@ -41,7 +41,7 @@ const Education = () => {
 
                         <div className='education__calendar'>
                             <BiCalendarEvent/>
-                            <p>2021 - Present</p>
+                            <p>2021 - 2022</p>
                         </div>
                     </div>
                 </div>
