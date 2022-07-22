@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8ff9516.css",
-    "main.js": "/static/js/main.848e91c0.js",
+    "main.css": "/static/css/main.34a00501.css",
+    "main.js": "/static/js/main.776e9b10.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/header.mp4": "/static/media/header.22acab75d452957cc30b.mp4",
     "static/media/Certificado Fundamentos Agilidad.png": "/static/media/Certificado Fundamentos Agilidad.f1f7593282089cf13dc7.png",
@@ -24,12 +24,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.c8ff9516.css.map": "/static/css/main.c8ff9516.css.map",
-    "main.848e91c0.js.map": "/static/js/main.848e91c0.js.map",
+    "main.34a00501.css.map": "/static/css/main.34a00501.css.map",
+    "main.776e9b10.js.map": "/static/js/main.776e9b10.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8ff9516.css",
-    "static/js/main.848e91c0.js"
+    "static/css/main.34a00501.css",
+    "static/js/main.776e9b10.js"
   ]
 }
