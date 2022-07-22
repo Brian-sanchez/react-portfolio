@@ -1,17 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BiCalendarEvent } from 'react-icons/bi';
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import './Education.css';
 
 const Education = () => {
+    useEffect(() => {
+      Aos.init({ duration: 1000 });
+    }, []);
+      
   return (
     <section id='education' className='education-section'>
-        <h2>Education</h2>
+        <h2 data-aos="fade-up">Education</h2>
 
         <div className='container education__container'>
             <div className='education__content'>
                 <div className='education__data'>
-                    <div className='info'>
+                    <div data-aos="fade-up" className='info'>
                         <h3>Technician in Web Development and Digital Applications</h3>
                         <small>ISPC - Higher Institute</small>
 
@@ -35,7 +42,7 @@ const Education = () => {
                         <span className='education__line'></span>
                     </div>
 
-                    <div className='info'>
+                    <div data-aos="fade-up" className='info'>
                         <h3>Bootcamp Full StacK Web Developer</h3>
                         <small>SoyHenry - Bootcamp</small>
 
@@ -47,7 +54,7 @@ const Education = () => {
                 </div>
 
                 <div className='education__data'>
-                    <div className='info'>
+                    <div data-aos="fade-up" className='info'>
                         <h3>High school graduate</h3>
                         <small>Instituto Santa Catalina de Alejandria - High School</small>
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import img1 from '../../assets/images/portfolio1.png';
 import img2 from '../../assets/images/portfolio2.png';
@@ -8,6 +8,9 @@ import img5 from '../../assets/images/portfolio5.png';
 import img6 from '../../assets/images/portfolio6.png';
 import img7 from '../../assets/images/portfolio7.png';
 import img8 from '../../assets/images/portfolio8.png';
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import './Portfolio.css';
 
@@ -79,16 +82,20 @@ const data = [
 ];
 
 const Portfolio = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <section id='portfolio' className='portfolio__section'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5 data-aos="fade-up">My Recent Work</h5>
+      <h2 data-aos="fade-up">Portfolio</h2>
 
       <div className='container portfolio__container'>
         {
           data.map(({id, image, title, description, github, demo}) => {
             return (
-              <article className='portfolio__item' key={id}>
+              <article data-aos="fade-up" className='portfolio__item' key={id}>
                 <div className='portfolio__item-image'>
                   <img src={image} alt={title}/>
                 </div>

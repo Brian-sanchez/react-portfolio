@@ -1,19 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 import ME from '../../assets/images/me.png';
 // import { FaAward } from 'react-icons/fa';
 // import { GiGraduateCap } from 'react-icons/gi';
 
-import './about.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import 'animate.css';
 
+import './about.css';
+
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <section id='about' className='animate__animated animate__fadeInUp'>
       <div className='space1'></div>
-      <h5>Get to know</h5>
-      <h2>About Me</h2>
+      <h5 data-aos="fade-up">Get to know</h5>
+      <h2 data-aos="fade-up">About Me</h2>
 
-      <div className='container about__container'>
+      <div data-aos="fade-up" className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
             <img src={ME} alt="About-Brian-Sanchez"/>

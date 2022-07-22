@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { DiHtml5 } from 'react-icons/di';
 import { DiCss3 } from 'react-icons/di';
@@ -9,10 +9,12 @@ import { SiTypescript } from 'react-icons/si';
 import { SiRedux } from 'react-icons/si';
 import { SiBootstrap } from 'react-icons/si';
 import { SiTailwindcss } from 'react-icons/si';
+import { SiMaterialui } from 'react-icons/si';
 
 import { DiNodejsSmall } from 'react-icons/di';
 import { SiExpress } from 'react-icons/si';
 import { SiJava } from 'react-icons/si';
+import { SiSpring } from 'react-icons/si';
 import { FaDatabase } from 'react-icons/fa';
 import { SiPostgresql } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
@@ -28,16 +30,23 @@ import { BiTimeFive } from 'react-icons/bi';
 import { FaUserTie } from 'react-icons/fa';
 import { BiBrain } from 'react-icons/bi';
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import './Skills.css';
 
 const Skills = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <section id='skills'>
-      <h5>What Skills I Have</h5>
-      <h2>My Skills</h2>
+      <h5 data-aos="fade-up">What Skills I Have</h5>
+      <h2 data-aos="fade-up">My Skills</h2>
 
       <div className='container skills__container'>
-        <div className='skills__frontend'>
+        <div data-aos="fade-up" className='skills__frontend'>
           <h3>Frontend Development</h3>
           <article className='skills__details'>
             <DiHtml5 className='skills__details-icon'/>
@@ -88,6 +97,12 @@ const Skills = () => {
           </article>
 
           <article className='skills__details'>
+            <SiMaterialui className='skills__details-icon'/>
+            <h4>Material UI</h4>
+            <small className='text-light'>Basic</small>
+          </article>
+
+          <article className='skills__details'>
             <SiTypescript className='skills__details-icon'/>
             <h4>Typescript</h4>
             <small className='text-light'>Basic</small>
@@ -110,7 +125,7 @@ const Skills = () => {
           }
         </div>
 
-        <div className='skills__backend'>
+        <div data-aos="fade-up" className='skills__backend'>
           <h3>Backend Development</h3>
           <article className='skills__details'>
             <DiNodejsSmall className='skills__details-icon'/>
@@ -125,8 +140,32 @@ const Skills = () => {
           </article>
 
           <article className='skills__details'>
+            <FaDatabase className='skills__details-icon'/>
+            <h4>SQL</h4>
+            <small className='text-light'>Intermediate</small>
+          </article>
+
+          <article className='skills__details'>
+            <SiPostgresql className='skills__details-icon'/>
+            <h4>PostgreSQL</h4>
+            <small className='text-light'>Intermediate</small>
+          </article>
+
+          <article className='skills__details'>
+            <GrMysql className='skills__details-icon'/>
+            <h4>MySQL</h4>
+            <small className='text-light'>Intermediate</small>
+          </article>
+
+          <article className='skills__details'>
             <SiJava className='skills__details-icon'/>
             <h4>Java</h4>
+            <small className='text-light'>Intermediate</small>
+          </article>
+
+          <article className='skills__details'>
+            <SiSpring className='skills__details-icon'/>
+            <h4>Spring Boot</h4>
             <small className='text-light'>Basic</small>
           </article>
 
@@ -136,23 +175,7 @@ const Skills = () => {
             <small className='text-light'>Basic</small>
           </article>
 
-          <article className='skills__details'>
-            <FaDatabase className='skills__details-icon'/>
-            <h4>SQL</h4>
-            <small className='text-light'>Basic</small>
-          </article>
 
-          <article className='skills__details'>
-            <SiPostgresql className='skills__details-icon'/>
-            <h4>PostgreSQL</h4>
-            <small className='text-light'>Basic</small>
-          </article>
-
-          <article className='skills__details'>
-            <GrMysql className='skills__details-icon'/>
-            <h4>MySQL</h4>
-            <small className='text-light'>Basic</small>
-          </article>
 
           { /* Proximamente...
               <article className='skills__details'>
@@ -176,7 +199,7 @@ const Skills = () => {
           }
         </div>
 
-        <div className='skills__other'>
+        <div data-aos="fade-up" className='skills__other'>
           <h3>Other Skills</h3>
           <article className='skills__details'>
             <SiGit className='skills__details-icon'/>
@@ -197,7 +220,7 @@ const Skills = () => {
           </article>
         </div>
 
-        <div className='skills__soft'>
+        <div data-aos="fade-up" className='skills__soft'>
           <h3>Soft Skills</h3>
           <article className='skills__details'>
             <BsLightbulbFill className='skills__details-icon'/>
