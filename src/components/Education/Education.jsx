@@ -19,8 +19,8 @@ const Education = () => {
             <div className='education__content'>
                 <div className='education__data'>
                     <div data-aos="fade-up" className='info'>
-                        <h3>Technician in Web Development and Digital Applications</h3>
-                        <small>ISPC - Higher Institute</small>
+                        <h3>Systems Analyst Technician</h3>
+                        <small>IFTS N°11 - Higher Institute</small>
 
                         <div className='education__calendar'>
                             <BiCalendarEvent/>
