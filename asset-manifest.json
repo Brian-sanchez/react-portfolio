@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.34a00501.css",
-    "main.js": "/static/js/main.f96d9e59.js",
+    "main.js": "/static/js/main.f9bf87c1.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/header.mp4": "/static/media/header.22acab75d452957cc30b.mp4",
     "static/media/Certificado Fundamentos Agilidad.png": "/static/media/Certificado Fundamentos Agilidad.f1f7593282089cf13dc7.png",
@@ -19,17 +19,18 @@
     "static/media/portfolio3.png": "/static/media/portfolio3.ad6c66a90f91d8178c2f.png",
     "static/media/portfolio8.png": "/static/media/portfolio8.1902595144fed0fb0653.png",
     "static/media/Brian Sanchez CV.pdf": "/static/media/Brian Sanchez CV.ae7b7e8168136060483c.pdf",
+    "static/media/portfolio9.png": "/static/media/portfolio9.6913d292aad62007e3d1.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.34a00501.css.map": "/static/css/main.34a00501.css.map",
-    "main.f96d9e59.js.map": "/static/js/main.f96d9e59.js.map",
+    "main.f9bf87c1.js.map": "/static/js/main.f9bf87c1.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34a00501.css",
-    "static/js/main.f96d9e59.js"
+    "static/js/main.f9bf87c1.js"
   ]
 }
