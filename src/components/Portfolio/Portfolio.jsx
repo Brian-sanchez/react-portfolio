@@ -8,6 +8,7 @@ import img5 from '../../assets/images/portfolio5.png';
 import img6 from '../../assets/images/portfolio6.png';
 import img7 from '../../assets/images/portfolio7.png';
 import img8 from '../../assets/images/portfolio8.png';
+import img9 from '../../assets/images/portfolio9.png';
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -17,6 +18,14 @@ import './Portfolio.css';
 const data = [
   {
     id: 1,
+    image: img9,
+    title: 'Library JAVA',
+    description: "It's about a Library that you can create, edit and delete books, readers, copies and make loans, made with: HTML, CSS, Sass, Material UI, React, Redux, JavaScript, Java, Spring Boot and MySQL",
+    github: 'https://github.com/Brian-sanchez/biblioteca-java',
+    demo: 'https://biblioteca-java-deploy.vercel.app'
+  },
+  {
+    id: 2,
     image: img7,
     title: 'E-Commerce Wixxer MERN',
     description: "It's about a E-commerce that deals with the sale of services by professionals and specialists. This project was carried out in collaboration with seven other classmates from the SoyHenry bootcamp.",
@@ -24,7 +33,7 @@ const data = [
     demo: 'https://wixxer-haroldnc.vercel.app'
   },
   {
-    id: 2,
+    id: 3,
     image: img8,
     title: 'GCBA COVID-19',
     description: "It's a web design of the GCBA (Gobierno de la Ciudad de Buenos Aires) coronavirus page, made with: HTML and Sass.",
@@ -32,7 +41,7 @@ const data = [
     demo: 'https://gcba-test.vercel.app'
   },
   {
-    id: 3,
+    id: 4,
     image: img5,
     title: 'Pokemon PERN',
     description: "It's about a single page application about pokemon and it was made with: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize and PostreSQL.",
@@ -40,7 +49,7 @@ const data = [
     demo: 'https://pi-pokemon-frontend.vercel.app'
   },
   {
-    id: 4,
+    id: 5,
     image: img6,
     title: 'Tech Store PERN',
     description: "It's about a single page application about tech store and it was made with: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize and PostreSQL.",
@@ -48,7 +57,7 @@ const data = [
     demo: 'https://precious-valkyrie-e1df5b.netlify.app'
   },
   {
-    id: 5,
+    id: 6,
     image: img1,
     title: 'Dogs PERN',
     description: "It's about a single page application about dogs and it was made with: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize and PostreSQL.",
@@ -56,7 +65,7 @@ const data = [
     demo: 'https://pi-dogs-frontend.vercel.app'
   },
   {
-    id: 6,
+    id: 7,
     image: img4,
     title: 'Countries PERN',
     description: "It's about a single page application about countries and it was made with: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize and PostreSQL.",
@@ -64,7 +73,7 @@ const data = [
     demo: 'https://pi-countries-frontend-87hdhew68-brian-sanchez.vercel.app'
   },
   {
-    id: 7,
+    id: 8,
     image: img3,
     title: 'Argentine national team',
     description: "It's about a team creator with players from the Argentine national team, made with: HTML, CSS, Sass, React, Redux and JavaScript.",
@@ -72,7 +81,7 @@ const data = [
     demo: 'https://brian-sanchez.github.io/seleccion-argentina/'
   },
   {
-    id: 8,
+    id: 9,
     image: img2,
     title: 'First Portfolio',
     description: "It's about a the first version of my web portfolio, made with: HTML, CSS and JavaScript.",
