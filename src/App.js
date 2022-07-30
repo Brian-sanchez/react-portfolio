@@ -1,3 +1,5 @@
+import { Suspense } from "react";
+
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import About from './components/About/aboutMe';
@@ -10,17 +12,19 @@ import Certifications from './components/Certifications/Certifications';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Nav/>
-      <About/>
-      <Education/>
-      <Certifications/>
-      <Skills/> 
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <Suspense fallback={null}>
+      <div className="App">
+        <Header/>
+        <Nav/>
+        <About/>
+        <Education/>
+        <Certifications/>
+        <Skills/> 
+        <Portfolio/>
+        <Contact/>
+        <Footer/>
+      </div>
+    </Suspense>
   );
 };
 

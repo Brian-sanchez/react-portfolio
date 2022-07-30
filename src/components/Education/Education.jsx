@@ -1,4 +1,8 @@
 import React, { useEffect } from 'react';
+
+import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
+
 import { BiCalendarEvent } from 'react-icons/bi';
 
 import Aos from "aos";
@@ -7,20 +11,27 @@ import "aos/dist/aos.css";
 import './Education.css';
 
 const Education = () => {
+    const { i18n, t } = useTranslation(["education"]);
+
     useEffect(() => {
-      Aos.init({ duration: 1000 });
+        if (localStorage.getItem("i18nextLng")?.length > 2) {
+            i18next.changeLanguage("en");
+        }
+
+        Aos.init({ duration: 1000 });
     }, []);
       
   return (
     <section id='education' className='education-section'>
-        <h2 data-aos="fade-up">Education</h2>
+        <h5 data-aos="fade-up">{t("title1")}</h5>
+        <h2 data-aos="fade-up">{t("title2")}</h2>
 
         <div className='container education__container'>
             <div className='education__content'>
                 <div className='education__data'>
                     <div data-aos="fade-up" className='info'>
-                        <h3>Systems Analyst Technician</h3>
-                        <small>IFTS N°11 - Higher Institute</small>
+                        <h3>{t("education3")}</h3>
+                        <small>{t("education3-text")}</small>
 
                         <div className='education__calendar'>
                             <BiCalendarEvent/>
@@ -43,8 +54,8 @@ const Education = () => {
                     </div>
 
                     <div data-aos="fade-up" className='info'>
-                        <h3>Bootcamp Full StacK Web Developer</h3>
-                        <small>SoyHenry - Bootcamp</small>
+                        <h3>{t("education2")}</h3>
+                        <small>{t("education2-text")}</small>
 
                         <div className='education__calendar'>
                             <BiCalendarEvent/>
@@ -55,8 +66,8 @@ const Education = () => {
 
                 <div className='education__data'>
                     <div data-aos="fade-up" className='info'>
-                        <h3>High school graduate</h3>
-                        <small>Instituto Santa Catalina de Alejandria - High School</small>
+                        <h3>{t("education1")}</h3>
+                        <small>{t("education1-text")}</small>
 
                         <div className='education__calendar'>
                             <BiCalendarEvent/>

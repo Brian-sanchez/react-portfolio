@@ -1,0 +1,31 @@
+{
+    "title1": "Mis ultimos trabajos",
+    "title2": "Portfolio",
+
+    "portfolio1-title": "Primer portfolio",
+    "portfolio1-descripcion": "Se trata de la primera versión de mi portafolio, la cual fue realizada con: HTML, CSS y JavaScript.",
+
+    "portfolio2-title": "Seleccion Argentina",
+    "portfolio2-descripcion": "Se trata de una aplicacion react en donde podras elegir tu 11 inicial de la seleccion argentina, la cual fue realizada con: HTML, CSS, Sass, React, Redux and JavaScript.",
+
+    "portfolio3-title": "Countries PERN",
+    "portfolio3-descripcion": "Se trata de una SPA (Single Page Application) sobre países y fue realizada con: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize y PostreSQL.",
+
+    "portfolio4-title": "Dogs PERN",
+    "portfolio4-descripcion": "Se trata de una SPA (Single Page Application) sobre perros y fue realizada con: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize y PostreSQL.",
+
+    "portfolio5-title": "Tech Store PERN",
+    "portfolio5-descripcion": "Se trata de una SPA (Single Page Application) sobre una tienda de productos tecnologicos y fue realizada con: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize y PostreSQL.",
+
+    "portfolio6-title": "Pokemon PERN",
+    "portfolio6-descripcion": "Se trata de una SPA (Single Page Application) sobre los pokemons y fue realizada con: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize y PostreSQL.",
+
+    "portfolio7-title": "GCBA COVID-19",
+    "portfolio7-descripcion": "Se trata sobre el maquetado web de una pagina del gobierno de la ciudad sobre los cuidados y precauciones del COVID-19, fue realizada con: HTML y Sass",
+
+    "portfolio8-title": "E-Commerce Wixxer MERN",
+    "portfolio8-descripcion": "Se trata de un E-commerce en donde se podra comprar o publicar un servicio de una persona. Este proyecto se llevó a cabo en colaboración con otros siete compañeros del bootcamp SoyHenry.",
+
+    "portfolio9-title": "Biblioteca JAVA",
+    "portfolio9-descripcion": "Se trata de una Biblioteca con un dashboard de administrador en el cual podras crear, editar y borrar libros, lectores, copiar y hacer préstamos, fue realizada con: HTML, CSS, Sass, Material UI, React, Redux, JavaScript, Java, Spring Boot y MySQL"
+}

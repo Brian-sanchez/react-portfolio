@@ -14,7 +14,7 @@
 
 .portfolio__item p {
     color: var(--color-light);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .portfolio__item:hover {
@@ -28,13 +28,18 @@
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
 }
 
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.portfolio__item-cta .btn {
+    padding: 0.35rem 2.2rem;
+    font-size: 1.4rem
 }
 
 /* ========================================== MEDIA QUERIES ======================== */

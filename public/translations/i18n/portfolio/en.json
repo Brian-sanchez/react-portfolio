@@ -1,0 +1,31 @@
+{
+    "title1": "My Recent Work",
+    "title2": "Portfolio",
+
+    "portfolio1-title": "First Portfolio",
+    "portfolio1-descripcion": "It's about a the first version of my web portfolio, made with: HTML, CSS and JavaScript.",
+
+    "portfolio2-title": "Argentine national team",
+    "portfolio2-descripcion": "It's about a team creator with players from the Argentine national team, made with: HTML, CSS, Sass, React, Redux and JavaScript.",
+
+    "portfolio3-title": "Countries PERN",
+    "portfolio3-descripcion": "It's about a single page application about countries and it was made with: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize and PostreSQL.",
+
+    "portfolio4-title": "Dogs PERN",
+    "portfolio4-descripcion": "It's about a single page application about dogs and it was made with: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize and PostreSQL.",
+
+    "portfolio5-title": "Tech Store PERN",
+    "portfolio5-descripcion": "It's about a single page application about tech store and it was made with: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize and PostreSQL.",
+
+    "portfolio6-title": "Pokemon PERN",
+    "portfolio6-descripcion": "It's about a single page application about pokemon and it was made with: HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, Sequelize and PostreSQL.",
+
+    "portfolio7-title": "GCBA COVID-19",
+    "portfolio7-descripcion": "It's a web design of the GCBA (Gobierno de la Ciudad de Buenos Aires) coronavirus page, made with: HTML and Sass.",
+
+    "portfolio8-title": "E-Commerce Wixxer MERN",
+    "portfolio8-descripcion": "It's about an E-commerce that deals with the sale of services by professionals and specialists. This project was carried out in collaboration with seven other classmates from the SoyHenry bootcamp.",
+
+    "portfolio9-title": "Library JAVA",
+    "portfolio9-descripcion": "It's about a Library that you can create, edit and delete books, readers, copies and make loans, made with: HTML, CSS, Sass, Material UI, React, Redux, JavaScript, Java, Spring Boot and MySQL"
+}

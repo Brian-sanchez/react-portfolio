@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Slider from "react-slick";
 
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -10,12 +10,16 @@ import certificate3 from "../../assets/certificates/Certificado Front End.png";
 import certificate4 from "../../assets/certificates/Certificado Fundamentos Agilidad.png";
 import certificate5 from "../../assets/certificates/Git y GitHub.png";
 
+import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 import "./Certifications.css";
 
 const Certifications = () => {
+  const { i18n, t } = useTranslation(["certifications"]);
   const certificates = [
     {
       name: "Certificado Full Stack Web Developer SoyHenry",
@@ -56,12 +60,17 @@ const Certifications = () => {
   };
 
   useEffect(() => {
+    if (localStorage.getItem("i18nextLng")?.length > 2) {
+      i18next.changeLanguage("en");
+    }
+
     Aos.init({ duration: 1000 });
   }, []);
 
   return (
     <section id='certifications' className='certifications-section'>
-        <h2 data-aos="fade-up">Certifications</h2>
+        <h5 data-aos="fade-up">{t("title1")}</h5>
+        <h2 data-aos="fade-up">{t("title2")}</h2>
 
         <div data-aos="fade-up" className='container certifications_container'>
             <Slider {...settings} className="certifications_slider">
