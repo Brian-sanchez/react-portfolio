@@ -1,0 +1,20 @@
+{
+    "title1": "What Skills I Have",
+    "title2": "My Skills",
+
+    "advanced": "Advanced",
+    "intermediate": "Intermediate",
+    "basic": "Basic",
+
+    "frontend": "Frontend Development",
+    "backend": "Backend Development",
+    "others-skills": "Other Skills",
+    "soft-skills": "Soft Skills",
+    
+    "creative": "Creative",
+    "teamworker": "Teamworker",
+    "organized": "Organized",
+    "responsable": "Responsable",
+    "fast-learning": "Fast learning",
+    "autodidact": "Autodidact"
+}
