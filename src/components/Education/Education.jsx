@@ -39,7 +39,7 @@ const Education = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div data-aos="fade-up">
                         <span className='education__rounder'></span>
                         <span className='education__line'></span>
                     </div>
@@ -48,7 +48,7 @@ const Education = () => {
                 <div className='education__data'>
                     <div></div>
 
-                    <div>
+                    <div data-aos="fade-up">
                         <span className='education__rounder'></span>
                         <span className='education__line'></span>
                     </div>
@@ -75,7 +75,7 @@ const Education = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div data-aos="fade-up">
                         <span className='education__rounder'></span>
                     </div>
                 </div>

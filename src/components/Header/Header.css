@@ -43,13 +43,13 @@ header {
 }
 
 .header__socials a {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .header__socials .translate {
   cursor: pointer;
   color: var(--color-light);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .header__socials .translate:hover {
@@ -69,9 +69,68 @@ header {
   position: absolute;
   left: 0;
   bottom: 20rem;
-  transform: rotate(90deg);
-  font-weight: 200;
-  font-size: 0.9rem;
+  height: 55px;
+  width: 30px;
+  border: 2px solid var(--color-light);
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.scroll__down:hover {
+  border: 2px solid var(--color-white);
+  transition: var(--transition);
+}
+
+.scroll__down::before,
+.scroll__down::after {
+  content: '';
+  border: 2px solid var(--color-light);
+  transform: translate(-50%, -100%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  height: 10px;
+  width: 10px;
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  animation: scroll__down 2s ease-in-out infinite;
+}
+
+.scroll__down:hover::before {
+  border: 2px solid var(--color-white);
+  transform: translate(-50%, -100%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  transition: var(--transition);
+}
+
+.scroll__down:hover::after {
+  border: 2px solid var(--color-white);
+  transform: translate(-50%, -100%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  transition: var(--transition);
+}
+
+.scroll__down::after {
+  top: 30%;
+  animation-delay: .3s;
+}
+
+@keyframes scroll__down {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+    top: 90%;
+  }
 }
 
 /* ========================================== MEDIA QUERIES ======================== */
