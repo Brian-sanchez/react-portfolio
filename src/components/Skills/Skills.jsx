@@ -8,6 +8,8 @@ import { DiCss3 } from 'react-icons/di';
 import { DiSass } from 'react-icons/di';
 import { DiJavascript1 } from 'react-icons/di';
 import { DiReact } from 'react-icons/di';
+import { DiJqueryLogo } from 'react-icons/di';
+import { DiDojo } from 'react-icons/di';
 import { SiTypescript } from 'react-icons/si';
 import { SiRedux } from 'react-icons/si';
 import { SiBootstrap } from 'react-icons/si';
@@ -17,6 +19,7 @@ import { SiMaterialui } from 'react-icons/si';
 import { DiNodejsSmall } from 'react-icons/di';
 import { SiExpress } from 'react-icons/si';
 import { SiJava } from 'react-icons/si';
+import { SiCsharp } from 'react-icons/si';
 import { SiSpring } from 'react-icons/si';
 import { FaDatabase } from 'react-icons/fa';
 import { SiPostgresql } from 'react-icons/si';
@@ -26,6 +29,12 @@ import { SiSequelize } from 'react-icons/si';
 import { SiGit } from 'react-icons/si';
 import { SiAdobephotoshop } from 'react-icons/si';
 import { SiPostman } from 'react-icons/si';
+import { DiGithubBadge } from 'react-icons/di';
+import { DiEclipse } from 'react-icons/di';
+import { AiFillFileWord } from 'react-icons/ai';
+import { AiFillFileExcel } from 'react-icons/ai';
+import { SiVisualstudiocode } from 'react-icons/si';
+import { SiIntellijidea } from 'react-icons/si';
 
 import { BsLightbulbFill } from 'react-icons/bs';
 import { RiTeamFill } from 'react-icons/ri';
@@ -71,6 +80,12 @@ const Skills = () => {
           </article>
 
           <article className='skills__details'>
+            <DiReact className='skills__details-icon'/>
+            <h4>React</h4>
+            <small className='text-light'>{t("advanced")}</small>
+          </article>
+
+          <article className='skills__details'>
             <DiCss3 className='skills__details-icon'/>
             <h4>CSS</h4>
             <small className='text-light'>{t("advanced")}</small>
@@ -83,8 +98,14 @@ const Skills = () => {
           </article>
 
           <article className='skills__details'>
-            <DiReact className='skills__details-icon'/>
-            <h4>React</h4>
+            <DiJqueryLogo className='skills__details-icon'/>
+            <h4>JQuery</h4>
+            <small className='text-light'>{t("intermediate")}</small>
+          </article>
+
+          <article className='skills__details'>
+            <DiDojo className='skills__details-icon'/>
+            <h4>Dojo Toolkit</h4>
             <small className='text-light'>{t("intermediate")}</small>
           </article>
 
@@ -174,6 +195,12 @@ const Skills = () => {
           </article>
 
           <article className='skills__details'>
+            <SiCsharp className='skills__details-icon'/>
+            <h4>C#</h4>
+            <small className='text-light'>{t("basic")}</small>
+          </article>
+
+          <article className='skills__details'>
             <SiSpring className='skills__details-icon'/>
             <h4>Spring Boot</h4>
             <small className='text-light'>{t("basic")}</small>
@@ -184,8 +211,6 @@ const Skills = () => {
             <h4>Sequelize</h4>
             <small className='text-light'>{t("basic")}</small>
           </article>
-
-
 
           { /* Proximamente...
               <article className='skills__details'>
@@ -212,14 +237,26 @@ const Skills = () => {
         <div className='skills__other'>
           <h3>{t("others-skills")}</h3>
           <article className='skills__details'>
+            <SiVisualstudiocode className='skills__details-icon'/>
+            <h4>Visual Studio Code</h4>
+            <small className='text-light'>{t("advanced")}</small>
+          </article>
+
+          <article className='skills__details'>
+            <SiAdobephotoshop className='skills__details-icon'/>
+            <h4>Photoshop</h4>
+            <small className='text-light'>{t("advanced")}</small>
+          </article>
+
+          <article className='skills__details'>
             <SiGit className='skills__details-icon'/>
             <h4>Git</h4>
             <small className='text-light'>{t("intermediate")}</small>
           </article>
 
           <article className='skills__details'>
-            <SiAdobephotoshop className='skills__details-icon'/>
-            <h4>Photoshop</h4>
+            <DiGithubBadge className='skills__details-icon'/>
+            <h4>GitHub</h4>
             <small className='text-light'>{t("intermediate")}</small>
           </article>
 
@@ -227,6 +264,30 @@ const Skills = () => {
             <SiPostman className='skills__details-icon'/>
             <h4>Postman</h4>
             <small className='text-light'>{t("intermediate")}</small>
+          </article>
+
+          <article className='skills__details'>
+            <DiEclipse className='skills__details-icon'/>
+            <h4>Eclipse</h4>
+            <small className='text-light'>{t("intermediate")}</small>
+          </article>
+
+          <article className='skills__details'>
+            <AiFillFileWord className='skills__details-icon'/>
+            <h4>Word</h4>
+            <small className='text-light'>{t("intermediate")}</small>
+          </article>
+
+          <article className='skills__details'>
+            <AiFillFileExcel className='skills__details-icon'/>
+            <h4>Excel</h4>
+            <small className='text-light'>{t("intermediate")}</small>
+          </article>
+
+          <article className='skills__details'>
+            <SiIntellijidea className='skills__details-icon'/>
+            <h4>IntelliJ</h4>
+            <small className='text-light'>{t("basic")}</small>
           </article>
         </div>
 

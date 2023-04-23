@@ -9,6 +9,10 @@ import certificate2 from "../../assets/certificates/Certificado Full Stack UTN.p
 import certificate3 from "../../assets/certificates/Certificado Front End.png";
 import certificate4 from "../../assets/certificates/Certificado Fundamentos Agilidad.png";
 import certificate5 from "../../assets/certificates/Git y GitHub.png";
+import certificate6 from "../../assets/certificates/Oracle Next Education.png";
+import certificate7 from "../../assets/certificates/Certificado SQL.png";
+import certificate8 from "../../assets/certificates/Web Design for Web Developers.png";
+import certificate9 from "../../assets/certificates/Solving Problems with Software.png";
 
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
@@ -45,6 +49,26 @@ const Certifications = () => {
       name: "Certificado Git y GitHub Oracle Next Education",
       url: "https://app.aluracursos.com/certificate/699f7e52-9406-4799-8460-740a47721c4e",
       img: certificate5
+    },
+    {
+      name: "Certificado Oracle Next Education",
+      url: "https://app.aluracursos.com/certificate/699f7e52-9406-4799-8460-740a47721c4e",
+      img: certificate6
+    },
+    {
+      name: "Certificado SQL",
+      url: "https://app.aluracursos.com/certificate/699f7e52-9406-4799-8460-740a47721c4e",
+      img: certificate7
+    },
+    {
+      name: "Certificado Web Design for Web Developers",
+      url: "https://app.aluracursos.com/certificate/699f7e52-9406-4799-8460-740a47721c4e",
+      img: certificate8
+    },
+    {
+      name: "Certificado Solving Problems with Software",
+      url: "https://app.aluracursos.com/certificate/699f7e52-9406-4799-8460-740a47721c4e",
+      img: certificate9
     }
   ]
   
