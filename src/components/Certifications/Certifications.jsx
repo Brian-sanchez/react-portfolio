@@ -52,22 +52,22 @@ const Certifications = () => {
     },
     {
       name: "Certificado Oracle Next Education",
-      url: "https://app.aluracursos.com/certificate/699f7e52-9406-4799-8460-740a47721c4e",
+      url: "https://app.aluracursos.com/program/certificate/d3fd56f6-f95f-4c26-98fa-4b547da83833",
       img: certificate6
     },
     {
       name: "Certificado SQL",
-      url: "https://app.aluracursos.com/certificate/699f7e52-9406-4799-8460-740a47721c4e",
+      url: "https://www.coursera.org/account/accomplishments/verify/Z9GXK9LH7N4M",
       img: certificate7
     },
     {
       name: "Certificado Web Design for Web Developers",
-      url: "https://app.aluracursos.com/certificate/699f7e52-9406-4799-8460-740a47721c4e",
+      url: "https://www.udemy.com/certificate/UC-410ff1d5-e936-4f2c-9459-8a32e7f2017c/",
       img: certificate8
     },
     {
       name: "Certificado Solving Problems with Software",
-      url: "https://app.aluracursos.com/certificate/699f7e52-9406-4799-8460-740a47721c4e",
+      url: "https://www.coursera.org/account/accomplishments/verify/HJEFJNYBPXYW?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
       img: certificate9
     }
   ]

@@ -35,6 +35,7 @@ import { AiFillFileWord } from 'react-icons/ai';
 import { AiFillFileExcel } from 'react-icons/ai';
 import { SiVisualstudiocode } from 'react-icons/si';
 import { SiIntellijidea } from 'react-icons/si';
+import { SiJirasoftware } from 'react-icons/si';
 
 import { BsLightbulbFill } from 'react-icons/bs';
 import { RiTeamFill } from 'react-icons/ri';
@@ -237,15 +238,27 @@ const Skills = () => {
         <div className='skills__other'>
           <h3>{t("others-skills")}</h3>
           <article className='skills__details'>
+            <SiAdobephotoshop className='skills__details-icon'/>
+            <h4>Photoshop</h4>
+            <small className='text-light'>{t("advanced")}</small>
+          </article>
+          
+          <article className='skills__details'>
             <SiVisualstudiocode className='skills__details-icon'/>
             <h4>Visual Studio Code</h4>
             <small className='text-light'>{t("advanced")}</small>
           </article>
 
           <article className='skills__details'>
-            <SiAdobephotoshop className='skills__details-icon'/>
-            <h4>Photoshop</h4>
-            <small className='text-light'>{t("advanced")}</small>
+            <DiEclipse className='skills__details-icon'/>
+            <h4>Eclipse</h4>
+            <small className='text-light'>{t("intermediate")}</small>
+          </article>
+
+          <article className='skills__details'>
+            <SiJirasoftware className='skills__details-icon'/>
+            <h4>Jira Software</h4>
+            <small className='text-light'>{t("intermediate")}</small>
           </article>
 
           <article className='skills__details'>
@@ -263,12 +276,6 @@ const Skills = () => {
           <article className='skills__details'>
             <SiPostman className='skills__details-icon'/>
             <h4>Postman</h4>
-            <small className='text-light'>{t("intermediate")}</small>
-          </article>
-
-          <article className='skills__details'>
-            <DiEclipse className='skills__details-icon'/>
-            <h4>Eclipse</h4>
             <small className='text-light'>{t("intermediate")}</small>
           </article>
 
