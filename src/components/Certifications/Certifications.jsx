@@ -88,7 +88,7 @@ const Certifications = () => {
       i18next.changeLanguage("en");
     }
 
-    Aos.init({ duration: 1000 });
+    //Aos.init({ duration: 1000 });
   }, []);
 
   return (
