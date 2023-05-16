@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 
-import CV from '../../assets/documents/Brian Sanchez CV.pdf';
+import CV from '../../assets/documents/Brian-Sanchez-CV.pdf';
 
 const CTA = () => {
   const { i18n, t } = useTranslation(["header"]);
