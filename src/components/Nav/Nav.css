@@ -40,6 +40,10 @@ nav a.active {
     #cer {
         display: none;
     }
+
+    #por {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 346px) {

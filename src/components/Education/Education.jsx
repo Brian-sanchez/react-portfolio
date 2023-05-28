@@ -29,13 +29,32 @@ const Education = () => {
         <div className='container education__container'>
             <div className='education__content'>
                 <div className='education__data'>
+                    <div></div>
+
+                    <div data-aos="fade-up">
+                        <span className='education__rounder'></span>
+                        <span className='education__line'></span>
+                    </div>
+
+                    <div data-aos="fade-up" className='info right_education'>
+                        <h3>{t("education4")}</h3>
+                        <small>{t("education4-text")}</small>
+
+                        <div className='education__calendar'>
+                            <BiCalendarEvent/>
+                            <p>2023 - {t("present")}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='education__data'>
                     <div data-aos="fade-up" className='info'>
                         <h3>{t("education3")}</h3>
                         <small>{t("education3-text")}</small>
 
                         <div className='education__calendar'>
                             <BiCalendarEvent/>
-                            <p>2022 - {t("present")}</p>
+                            <p>2022 - 2023</p>
                         </div>
                     </div>
 
@@ -53,7 +72,7 @@ const Education = () => {
                         <span className='education__line'></span>
                     </div>
 
-                    <div data-aos="fade-up" className='info'>
+                    <div data-aos="fade-up" className='info right_education'>
                         <h3>{t("education2")}</h3>
                         <small>{t("education2-text")}</small>
 

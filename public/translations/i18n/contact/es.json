@@ -4,6 +4,7 @@
 
     "sendMessage": "Enviar un mensaje",
     "button": "Enviar mensaje",
+    "sendAlert": "Tu mensaje ha sido enviado",
 
     "placeholder1": "Ingrese su nombre completo",
     "placeholder2": "Ingrese su email",

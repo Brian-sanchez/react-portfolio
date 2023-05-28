@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 
 import ME from '../../assets/images/me.png';
-// import { FaAward } from 'react-icons/fa';
+import { FaAward } from 'react-icons/fa';
 // import { GiGraduateCap } from 'react-icons/gi';
 
 import Aos from "aos";
@@ -42,14 +42,14 @@ const About = () => {
           <div className='about__cards'>
             {
               /*
-            <article className='about__card'>
+              <article className='about__card'>
               <FaAward/>
               <h5>Experience</h5>
               <small>1+ Years Working</small>
             </article> 
               */
             }
-            
+
             <p>{t("about")}</p>
 
             <a href='#contact' className='btn btn-primary'>{t("button")}</a>

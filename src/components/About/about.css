@@ -1,3 +1,9 @@
+#about {
+    padding-top: 0rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
 .space1 {
     background-color: transparent;
     padding: 1rem;
@@ -8,7 +14,7 @@
 
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 30% 50%;
     gap: 15%;
 }
 
@@ -82,6 +88,10 @@
 
 /* ========================================== MEDIA QUERIES ======================== */
 @media screen and (max-width: 1024px) {
+    #about {
+        margin-top: 26rem;
+    }
+
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -98,6 +108,10 @@
 }
   
 @media screen and (max-width: 600px) {
+    #about {
+        margin-top: 8rem;
+    }
+
     .about__me {
       width: 65%;
       margin: 0 auto 3rem;
