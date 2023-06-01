@@ -3,6 +3,9 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 
+import capgemini from '../../assets/images/logos/capgemini-logo.png';
+import mambo from '../../assets/images/logos/mambo-isotype.svg';
+
 import { BiCalendarEvent } from 'react-icons/bi';
 
 import Aos from "aos";
@@ -36,25 +39,33 @@ const Experience = () => {
                             <span className='experience__line'></span>
                         </div>
 
-                        <div data-aos="fade-up" className='info right_experience'>
-                            <h3>{t("experience2")}</h3>
-                            <small>{t("experience2-text")}</small>
+                        <div data-aos="fade-up" className='info_experience right_experience'>
+                            <div className='data'>
+                                <h3>{t("experience2")}</h3>
+                                <small>{t("experience2-text")}</small>
 
-                            <div className='experience__calendar'>
-                                <BiCalendarEvent/>
-                                <p>{t("period2")}</p>
+                                <div className='experience__calendar'>
+                                    <BiCalendarEvent className='icon'/>
+                                    <p>{t("period2")}</p>
+                                </div>
                             </div>
+                            
+                            <img src={capgemini} alt='capgemini'/>
                         </div>
                     </div>
 
                     <div className='experience__data'>
-                        <div data-aos="fade-up" className='info'>
-                            <h3>{t("experience1")}</h3>
-                            <small>{t("experience1-text")}</small>
+                        <div data-aos="fade-up" className='info_experience'>
+                            <img src={mambo} alt='mambo' id='mambo'/>
+                            
+                            <div className='data'>
+                                <h3>{t("experience1")}</h3>
+                                <small>{t("experience1-text")}</small>
 
-                            <div className='experience__calendar'>
-                                <BiCalendarEvent/>
-                                <p>{t("period1")}</p>
+                                <div className='experience__calendar'>
+                                    <BiCalendarEvent className='icon'/>
+                                    <p>{t("period1")}</p>
+                                </div>
                             </div>
                         </div>
 

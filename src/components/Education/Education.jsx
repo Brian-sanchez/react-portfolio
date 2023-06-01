@@ -3,6 +3,11 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 
+import teclab from '../../assets/images/logos/teclab-logo.png';
+import ifts from '../../assets/images/logos/IFTS-logo.png';
+import soyhenry from '../../assets/images/logos/soyHenry-logo.jpeg';
+import instsc from '../../assets/images/logos/santa-catalina-logo.png';
+
 import { BiCalendarEvent } from 'react-icons/bi';
 
 import Aos from "aos";
@@ -37,24 +42,32 @@ const Education = () => {
                     </div>
 
                     <div data-aos="fade-up" className='info right_education'>
-                        <h3>{t("education4")}</h3>
-                        <small>{t("education4-text")}</small>
+                        <div>
+                           <h3>{t("education4")}</h3>
+                            <small>{t("education4-text")}</small>
 
-                        <div className='education__calendar'>
-                            <BiCalendarEvent/>
-                            <p>2023 - {t("present")}</p>
+                            <div className='education__calendar'>
+                                <BiCalendarEvent/>
+                                <p>2023 - {t("present")}</p>
+                            </div> 
                         </div>
+                        
+                        <img src={teclab} alt='Teclab'/>
                     </div>
                 </div>
 
                 <div className='education__data'>
                     <div data-aos="fade-up" className='info'>
-                        <h3>{t("education3")}</h3>
-                        <small>{t("education3-text")}</small>
+                        <img src={ifts} alt='IFTS'/>
 
-                        <div className='education__calendar'>
-                            <BiCalendarEvent/>
-                            <p>2022 - 2023</p>
+                        <div>
+                            <h3>{t("education3")}</h3>
+                            <small>{t("education3-text")}</small>
+
+                            <div className='education__calendar'>
+                                <BiCalendarEvent/>
+                                <p>2022 - 2023</p>
+                            </div>
                         </div>
                     </div>
 
@@ -73,24 +86,32 @@ const Education = () => {
                     </div>
 
                     <div data-aos="fade-up" className='info right_education'>
-                        <h3>{t("education2")}</h3>
-                        <small>{t("education2-text")}</small>
+                        <div>
+                            <h3>{t("education2")}</h3>
+                            <small>{t("education2-text")}</small>
 
-                        <div className='education__calendar'>
-                            <BiCalendarEvent/>
-                            <p>2021 - 2022</p>
+                            <div className='education__calendar'>
+                                <BiCalendarEvent/>
+                                <p>2021 - 2022</p>
+                            </div>
                         </div>
+
+                        <img src={soyhenry} alt='SoyHenry'/>
                     </div>
                 </div>
 
                 <div className='education__data'>
                     <div data-aos="fade-up" className='info'>
-                        <h3>{t("education1")}</h3>
-                        <small>{t("education1-text")}</small>
+                        <img src={instsc} alt='Instituto Santa Catalina'/>
 
-                        <div className='education__calendar'>
-                            <BiCalendarEvent/>
-                            <p>2016 - 2020</p>
+                        <div>
+                            <h3>{t("education1")}</h3>
+                            <small>{t("education1-text")}</small>
+
+                            <div className='education__calendar'>
+                                <BiCalendarEvent/>
+                                <p>2016 - 2020</p>
+                            </div>
                         </div>
                     </div>
 

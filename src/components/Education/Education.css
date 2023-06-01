@@ -6,10 +6,24 @@
 
 .info {
     margin-bottom: 1.5rem;
+    display: flex;
 }
 
 .info small {
     color: var(--color-light);
+}
+
+.info img {
+    max-width: 75px;
+    object-fit: contain;
+    margin-right: 1.5rem;
+    filter: grayscale();
+    transition: var(--transition);
+}
+
+.info:hover img {
+    transition: var(--transition);
+    filter: none;
 }
 
 .education__rounder {
@@ -42,16 +56,26 @@
 
 .right_education {
     text-align: end;
+    justify-content: flex-end;
 }
 
 .right_education div {
     justify-content: flex-end;
 }
 
+.right_education img {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
 /* ========================================== MEDIA QUERIES ======================== */
 @media screen and (max-width: 600px) {
     .education__data {
         column-gap: 0.5rem;
+    }
+
+    .icon {
+        display: none;
     }
 
     .info {
