@@ -4,9 +4,8 @@
   "private": true,
   "homepage": "https://briansanchez.me/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.3",
-    "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^15.0.5",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "emailjs-com": "^3.2.0",
@@ -51,6 +50,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "@babel/plugin-proposal-private-property-in-object": "^7.18.6"
   }
 }

@@ -14,11 +14,11 @@ import { SiTypescript } from 'react-icons/si';
 import { SiRedux } from 'react-icons/si';
 import { SiBootstrap } from 'react-icons/si';
 import { SiTailwindcss } from 'react-icons/si';
-import { SiMaterialui } from 'react-icons/si';
+import { SiMui } from "react-icons/si";
 
 import { DiNodejsSmall } from 'react-icons/di';
 import { SiExpress } from 'react-icons/si';
-import { SiJava } from 'react-icons/si';
+import { FaJava } from "react-icons/fa";
 import { SiCsharp } from 'react-icons/si';
 import { SiSpring } from 'react-icons/si';
 import { FaDatabase } from 'react-icons/fa';
@@ -129,7 +129,7 @@ const Skills = () => {
           </article>
 
           <article className='skills__details'>
-            <SiMaterialui className='skills__details-icon'/>
+            <SiMui className='skills__details-icon'/>
             <h4>Material UI</h4>
             <small className='text-light'>{t("basic")}</small>
           </article>
@@ -190,7 +190,7 @@ const Skills = () => {
           </article>
 
           <article className='skills__details'>
-            <SiJava className='skills__details-icon'/>
+            <FaJava className='skills__details-icon'/>
             <h4>Java</h4>
             <small className='text-light'>{t("intermediate")}</small>
           </article>
