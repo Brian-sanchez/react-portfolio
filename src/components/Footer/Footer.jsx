@@ -12,7 +12,11 @@ import "aos/dist/aos.css";
 import './Footer.css';
 
 const Footer = () => {
-  const { i18n, t } = useTranslation(["footer"]);
+  const { t } = useTranslation(["footer"]);
+
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   useEffect(() => {
     if (localStorage.getItem("i18nextLng")?.length > 2) {
@@ -24,10 +28,10 @@ const Footer = () => {
 
   return (
     <section data-aos="fade-up" className='footer' id='footer'>
-      <a href='#' className='footer__logo'>BRIAN SANCHEZ</a>
+      <button className='footer__logo' onClick={handleScrollToTop}>BRIAN SANCHEZ</button>
 
       <ul data-aos="fade-up" className='pageLinks'>
-        <li><a href='#'>{t("menu1")}</a></li>
+        <li><button onClick={handleScrollToTop}>{t("menu1")}</button></li>
         <li><a href='#about'>{t("menu2")}</a></li>
         <li><a href='#education'>{t("menu3")}</a></li>
         <li><a href='#certifications'>{t("menu4")}</a></li>

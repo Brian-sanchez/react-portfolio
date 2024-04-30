@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 import './Contact.css';
 
 const Contact = () => {
-  const { i18n, t } = useTranslation(["contact"]);
+  const { t } = useTranslation(["contact"]);
   const form = useRef();
 
   const sendEmail = (e) => {

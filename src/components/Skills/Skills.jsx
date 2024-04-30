@@ -50,7 +50,7 @@ import "aos/dist/aos.css";
 import './Skills.css';
 
 const Skills = () => {
-  const { i18n, t } = useTranslation(["skills"]);
+  const { t } = useTranslation(["skills"]);
 
   useEffect(() => {
     if (localStorage.getItem("i18nextLng")?.length > 2) {

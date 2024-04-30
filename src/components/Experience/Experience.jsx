@@ -14,7 +14,7 @@ import "aos/dist/aos.css";
 import './Experience.css';
 
 const Experience = () => {
-    const { i18n, t } = useTranslation(["experience"]);
+    const { t } = useTranslation(["experience"]);
 
     useEffect(() => {
         if (localStorage.getItem("i18nextLng")?.length > 2) {

@@ -16,7 +16,7 @@ import "aos/dist/aos.css";
 import './Education.css';
 
 const Education = () => {
-    const { i18n, t } = useTranslation(["education"]);
+    const { t } = useTranslation(["education"]);
 
     useEffect(() => {
         if (localStorage.getItem("i18nextLng")?.length > 2) {

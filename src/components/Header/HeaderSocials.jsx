@@ -7,7 +7,7 @@ import { HiOutlineTranslate } from 'react-icons/hi';
 import { useTranslation } from 'react-i18next';
 
 const HeaderSocials = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const [Lenguage, setLenguage] = useState(false);
 
   const handleClick = () => {

@@ -22,7 +22,7 @@ import { TbWorld } from 'react-icons/tb';
 import './Portfolio.css';
 
 const Portfolio = () => {
-  const { i18n, t } = useTranslation(["portfolio"]);
+  const { t } = useTranslation(["portfolio"]);
 
   const data = [
     {

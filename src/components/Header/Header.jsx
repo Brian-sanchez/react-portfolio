@@ -12,7 +12,7 @@ import 'animate.css';
 import video from "./video/header.mp4";
 
 const Header = () => {
-  const { i18n, t } = useTranslation(["header"]);
+  const { t } = useTranslation(["header"]);
 
   useEffect(() => {
     if (localStorage.getItem("i18nextLng")?.length > 2) {

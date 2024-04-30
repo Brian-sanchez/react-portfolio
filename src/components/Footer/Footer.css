@@ -16,10 +16,19 @@
 }
 
 .footer__logo {
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.footer__logo:hover {
+    transition: var(--transition);
+    color: var(--color-white);
 }
 
 .pageLinks {
@@ -28,6 +37,18 @@
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
+}
+
+.pageLinks button {
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.pageLinks button:hover {
+    transition: var(--transition);
+    color: var(--color-white);
 }
 
 .footer__socials {

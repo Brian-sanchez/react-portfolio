@@ -23,7 +23,8 @@ import "aos/dist/aos.css";
 import "./Certifications.css";
 
 const Certifications = () => {
-  const { i18n, t } = useTranslation(["certifications"]);
+  const { t } = useTranslation(["certifications"]);
+  
   const certificates = [
     {
       name: "Certificado Full Stack Web Developer SoyHenry",

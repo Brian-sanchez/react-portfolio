@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 
 import ME from '../../assets/images/me.png';
-import { FaAward } from 'react-icons/fa';
+// import { FaAward } from 'react-icons/fa';
 // import { GiGraduateCap } from 'react-icons/gi';
 
 import Aos from "aos";
@@ -15,7 +15,7 @@ import 'animate.css';
 import './about.css';
 
 const About = () => {
-  const { i18n, t } = useTranslation(["about"]);
+  const { t } = useTranslation(["about"]);
 
   useEffect(() => {
     if (localStorage.getItem("i18nextLng")?.length > 2) {
