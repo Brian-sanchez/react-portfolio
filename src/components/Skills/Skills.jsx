@@ -14,7 +14,6 @@ import { SiTypescript } from 'react-icons/si';
 import { SiRedux } from 'react-icons/si';
 import { SiBootstrap } from 'react-icons/si';
 import { SiTailwindcss } from 'react-icons/si';
-import { SiMui } from "react-icons/si";
 
 import { DiNodejsSmall } from 'react-icons/di';
 import { SiExpress } from 'react-icons/si';
@@ -126,12 +125,6 @@ const Skills = () => {
             <SiTailwindcss className='skills__details-icon'/>
             <h4>Tailwind CSS</h4>
             <small className='text-light'>{t("intermediate")}</small>
-          </article>
-
-          <article className='skills__details'>
-            <SiMui className='skills__details-icon'/>
-            <h4>Material UI</h4>
-            <small className='text-light'>{t("basic")}</small>
           </article>
 
           <article className='skills__details'>
