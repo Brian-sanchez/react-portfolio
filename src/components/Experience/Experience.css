@@ -4,6 +4,10 @@
     column-gap: 1.5rem;
 }
 
+.experience__data a {
+    color: var(--color-white);
+}
+
 .info_experience {
     margin-bottom: 1.5rem;
     display: flex;

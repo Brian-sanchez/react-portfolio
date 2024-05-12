@@ -39,7 +39,7 @@ const Experience = () => {
                             <span className='experience__line'></span>
                         </div>
 
-                        <div data-aos="fade-up" className='info_experience right_experience'>
+                        <a href='https://www.capgemini.com/ar-es/' target='_blank' rel="noreferrer" data-aos="fade-up" className='info_experience right_experience'>
                             <div className='data'>
                                 <h3>{t("experience2")}</h3>
                                 <small>{t("experience2-text")}</small>
@@ -51,11 +51,11 @@ const Experience = () => {
                             </div>
                             
                             <img src={capgemini} alt='capgemini'/>
-                        </div>
+                        </a>
                     </div>
 
                     <div className='experience__data'>
-                        <div data-aos="fade-up" className='info_experience'>
+                        <a href='https://www.mambojs.dev' target='_blank' rel="noreferrer" data-aos="fade-up" className='info_experience'>
                             <img src={mambo} alt='mambo' id='mambo'/>
                             
                             <div className='data'>
@@ -67,7 +67,7 @@ const Experience = () => {
                                     <p>{t("period1")}</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
 
                         <div data-aos="fade-up">
                             <span className='experience__rounder'></span>

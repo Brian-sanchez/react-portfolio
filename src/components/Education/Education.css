@@ -4,6 +4,10 @@
     column-gap: 1.5rem;
 }
 
+.education__data a {
+    color: var(--color-white);
+}
+
 .info {
     margin-bottom: 1.5rem;
     display: flex;

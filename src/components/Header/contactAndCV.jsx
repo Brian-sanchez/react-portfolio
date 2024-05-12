@@ -14,7 +14,7 @@ const CTA = () => {
 
   return (
     <div className='cta'>
-        <a href="https://drive.google.com/file/d/1Z-uL-W9MElXoLWBU86FyAJqRxrLO6KTR/view?usp=sharing" target='_blank' rel='noreferrer' className='btn'>{t("download")}</a>
+        <a href={t("url-cv")} target='_blank' rel='noreferrer' className='btn'>{t("download")}</a>
         <a href='#contact' className='btn'>{t("contact")}</a>
     </div>
   );

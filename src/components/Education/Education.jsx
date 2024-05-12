@@ -41,7 +41,7 @@ const Education = () => {
                         <span className='education__line'></span>
                     </div>
 
-                    <div data-aos="fade-up" className='info right_education'>
+                    <a href='https://teclab.edu.ar' target='_blank' rel="noreferrer" data-aos="fade-up" className='info right_education'>
                         <div>
                            <h3>{t("education4")}</h3>
                             <small>{t("education4-text")}</small>
@@ -53,23 +53,23 @@ const Education = () => {
                         </div>
                         
                         <img src={teclab} alt='Teclab'/>
-                    </div>
+                    </a>
                 </div>
 
                 <div className='education__data'>
-                    <div data-aos="fade-up" className='info'>
-                        <img src={ifts} alt='IFTS'/>
+                    <a href='https://www.soyhenry.com' target='_blank' rel="noreferrer" data-aos="fade-up" className='info'>
+                        <img src={soyhenry} alt='SoyHenry'/>
 
                         <div>
-                            <h3>{t("education3")}</h3>
-                            <small>{t("education3-text")}</small>
+                            <h3>{t("education2")}</h3>
+                            <small>{t("education2-text")}</small>
 
                             <div className='education__calendar'>
                                 <BiCalendarEvent/>
-                                <p>2022 - 2023</p>
+                                <p>2021 - 2022</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
                     <div data-aos="fade-up">
                         <span className='education__rounder'></span>
@@ -82,28 +82,9 @@ const Education = () => {
 
                     <div data-aos="fade-up">
                         <span className='education__rounder'></span>
-                        <span className='education__line'></span>
                     </div>
 
-                    <div data-aos="fade-up" className='info right_education'>
-                        <div>
-                            <h3>{t("education2")}</h3>
-                            <small>{t("education2-text")}</small>
-
-                            <div className='education__calendar'>
-                                <BiCalendarEvent/>
-                                <p>2021 - 2022</p>
-                            </div>
-                        </div>
-
-                        <img src={soyhenry} alt='SoyHenry'/>
-                    </div>
-                </div>
-
-                <div className='education__data'>
-                    <div data-aos="fade-up" className='info'>
-                        <img src={instsc} alt='Instituto Santa Catalina'/>
-
+                    <a href='https://www.casasantacatalina.com.ar' target='_blank' rel="noreferrer" data-aos="fade-up" className='info right_education'>
                         <div>
                             <h3>{t("education1")}</h3>
                             <small>{t("education1-text")}</small>
@@ -113,11 +94,9 @@ const Education = () => {
                                 <p>2016 - 2020</p>
                             </div>
                         </div>
-                    </div>
 
-                    <div data-aos="fade-up">
-                        <span className='education__rounder'></span>
-                    </div>
+                        <img src={instsc} alt='Instituto Santa Catalina'/>
+                    </a>
                 </div>
             </div>
         </div>

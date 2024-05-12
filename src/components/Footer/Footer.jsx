@@ -13,6 +13,7 @@ import './Footer.css';
 
 const Footer = () => {
   const { t } = useTranslation(["footer"]);
+  const actualYear = new Date().getFullYear();
 
   const handleScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -46,7 +47,7 @@ const Footer = () => {
       </div>
 
       <div data-aos="fade-up" className='footer__copyright'>
-        <small>{t("copyright")}</small>
+        <small>@ {actualYear} {t("copyright")}</small>
       </div>
     </section>
   );
