@@ -3,10 +3,9 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 
-import capgemini from '../../assets/images/logos/capgemini-logo.png';
-import mambo from '../../assets/images/logos/mambo-isotype.svg';
-
 import { BiCalendarEvent } from 'react-icons/bi';
+
+import { experienceData } from '../Data';
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -31,48 +30,65 @@ const Experience = () => {
 
             <div className='container experience__container'>
                 <div className='experience__content'>
-                    <div className='experience__data'>
-                        <div></div>
-
-                        <div data-aos="fade-up">
-                            <span className='experience__rounder'></span>
-                            <span className='experience__line'></span>
-                        </div>
-
-                        <a href='https://www.capgemini.com/ar-es/' target='_blank' rel="noreferrer" data-aos="fade-up" className='info_experience right_experience'>
-                            <div className='data'>
-                                <h3>{t("experience2")}</h3>
-                                <small>{t("experience2-text")}</small>
-
-                                <div className='experience__calendar'>
-                                    <BiCalendarEvent className='icon'/>
-                                    <p>{t("period2")}</p>
-                                </div>
-                            </div>
+                    {
+                        experienceData.map((element, index) => {
+                            const { id, name, image, page } = element;
                             
-                            <img src={capgemini} alt='capgemini'/>
-                        </a>
-                    </div>
+                            const expLength = experienceData.length - 1;
 
-                    <div className='experience__data'>
-                        <a href='https://www.mambojs.dev' target='_blank' rel="noreferrer" data-aos="fade-up" className='info_experience'>
-                            <img src={mambo} alt='mambo' id='mambo'/>
-                            
-                            <div className='data'>
-                                <h3>{t("experience1")}</h3>
-                                <small>{t("experience1-text")}</small>
-
-                                <div className='experience__calendar'>
-                                    <BiCalendarEvent className='icon'/>
-                                    <p>{t("period1")}</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <div data-aos="fade-up">
-                            <span className='experience__rounder'></span>
-                        </div>
-                    </div>
+                            if (id % 2) {
+                                return (
+                                    <div className='experience__data' key={id}>
+                                        <a href={page} target='_blank' rel="noreferrer" data-aos="fade-up" className='info_experience'>
+                                            <img src={image} alt={name} id={name}/>
+                                            
+                                            <div className='data'>
+                                                <h3>{t(`experience${id}`)}</h3>
+                                                <small>{name}</small>
+                
+                                                <div className='experience__calendar'>
+                                                    <BiCalendarEvent className='icon'/>
+                                                    <p>{t(`period${id}`)}</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    
+                                        <div data-aos="fade-up">
+                                            <span className='experience__rounder'></span>
+                                            {
+                                                index !== expLength && (<span className='experience__line'></span>)
+                                            }
+                                        </div>
+                                    </div>
+                                );
+                            } else {
+                                return (
+                                    <div className='experience__data' key={id}>
+                                        <div></div>
+                
+                                        <div data-aos="fade-up">
+                                            <span className='experience__rounder'></span>
+                                            <span className='experience__line'></span>
+                                        </div>
+                
+                                        <a href={page} target='_blank' rel="noreferrer" data-aos="fade-up" className='info_experience right_experience'>
+                                            <div className='data'>
+                                                <h3>{t(`experience${id}`)}</h3>
+                                                <small>{name}</small>
+                
+                                                <div className='experience__calendar'>
+                                                    <BiCalendarEvent className='icon'/>
+                                                    <p>{t(`period${id}`)}</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <img src={image} alt={name}/>
+                                        </a>
+                                    </div>
+                                )
+                            }
+                        })
+                    }
                 </div>
             </div>
         </section>

@@ -2,17 +2,14 @@
     "title1": "What Education I Have",
     "title2": "Education",
 
-    "education1": "High school graduate",
-    "education1-text": "Instituto Santa Catalina de Alejandria - High School",
+    "education1": "Higher Technician in Programming",
+    "education1-text": "Teclab - Higher Institute",
 
     "education2": "Bootcamp Full Stack Web Developer",
     "education2-text": "SoyHenry - Bootcamp",
 
-    "education3": "Systems Analyst Technician",
-    "education3-text": "IFTS N°11 - Higher Institute",
-
-    "education4": "Higher Technician in Programming",
-    "education4-text": "Teclab - Higher Institute",
+    "education3": "High school graduate",
+    "education3-text": "Instituto Santa Catalina de Alejandria - High School",
 
     "present": "Present"
 }

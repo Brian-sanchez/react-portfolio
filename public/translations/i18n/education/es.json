@@ -2,17 +2,14 @@
     "title1": "Estudios que he obtenido",
     "title2": "Educacion",
 
-    "education1": "Bachillerato con orientación en Economía y Administración",
-    "education1-text": "Instituto Santa Catalina de Alejandria - Secundario",
+    "education1": "Técnico Superior en Programación",
+    "education1-text": "Teclab - Instituto Técnico Superior",
 
     "education2": "Bootcamp Full Stack Web Developer",
     "education2-text": "SoyHenry - Bootcamp",
 
-    "education3": "Tecnicatura Superior en Análisis de Sistemas",
-    "education3-text": "IFTS N°11 - Instituto Técnico Superior",
-
-    "education4": "Técnico Superior en Programación",
-    "education4-text": "Teclab - Instituto Técnico Superior",
+    "education3": "Bachillerato con orientación en Economía y Administración",
+    "education3-text": "Instituto Santa Catalina de Alejandria - Secundario",
 
     "present": "Actualmente"
 }
