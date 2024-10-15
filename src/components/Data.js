@@ -23,6 +23,57 @@ import cert13 from "../assets/certificates/Udemy - TypeScript.png"
 import cert14 from "../assets/certificates/AWS - Introduction AWS.png"
 import cert15 from "../assets/certificates/Austral - Bootstrap.png"
 
+// Portfolio images
+import img1 from '../assets/images/portfolio1.png';
+import img2 from '../assets/images/portfolio2.png';
+import img3 from '../assets/images/portfolio3.png';
+import img4 from '../assets/images/portfolio4.png';
+import img5 from '../assets/images/portfolio5.png';
+import img6 from '../assets/images/portfolio6.png';
+import img7 from '../assets/images/portfolio7.png';
+import img8 from '../assets/images/portfolio8.png';
+import img9 from '../assets/images/portfolio9.png';
+
+// Icons Skills
+import { DiHtml5 } from 'react-icons/di';
+import { DiCss3 } from 'react-icons/di';
+import { DiSass } from 'react-icons/di';
+import { DiJavascript1 } from 'react-icons/di';
+import { DiReact } from 'react-icons/di';
+import { DiJqueryLogo } from 'react-icons/di';
+import { DiDojo } from 'react-icons/di';
+import { SiTypescript } from 'react-icons/si';
+import { SiRedux } from 'react-icons/si';
+import { SiBootstrap } from 'react-icons/si';
+import { SiTailwindcss } from 'react-icons/si';
+
+import { DiNodejsSmall } from 'react-icons/di';
+import { SiExpress } from 'react-icons/si';
+import { FaJava } from "react-icons/fa";
+import { SiSpring } from 'react-icons/si';
+import { FaDatabase } from 'react-icons/fa';
+import { SiPostgresql } from 'react-icons/si';
+import { GrMysql } from 'react-icons/gr';
+import { SiSequelize } from 'react-icons/si';
+
+import { SiGit } from 'react-icons/si';
+import { SiAdobephotoshop } from 'react-icons/si';
+import { SiPostman } from 'react-icons/si';
+import { DiGithubBadge } from 'react-icons/di';
+import { DiEclipse } from 'react-icons/di';
+import { AiFillFileWord } from 'react-icons/ai';
+import { AiFillFileExcel } from 'react-icons/ai';
+import { SiVisualstudiocode } from 'react-icons/si';
+import { SiIntellijidea } from 'react-icons/si';
+import { SiJirasoftware } from 'react-icons/si';
+
+import { BsLightbulbFill } from 'react-icons/bs';
+import { RiTeamFill } from 'react-icons/ri';
+import { BiTimeFive } from 'react-icons/bi';
+import { FaUserTie } from 'react-icons/fa';
+import { BiBrain } from 'react-icons/bi';
+import { MdComputer } from 'react-icons/md';
+
 export const experienceData = [
   {
     id: 1,
@@ -133,3 +184,291 @@ export const certificationData = [
     img: cert15,
   },
 ];
+
+export const portfolioData = [
+  {
+    id: 1,
+    image: img9,
+    github: 'https://github.com/Brian-sanchez/biblioteca-java',
+    demo: 'https://biblioteca-java-deploy.vercel.app'
+  },
+  {
+    id: 2,
+    image: img7,
+    github: 'https://github.com/haroldnc/PF-e-commerce',
+    demo: 'https://wixxer-haroldnc.vercel.app'
+  },
+  {
+    id: 3,
+    image: img8,
+    github: 'https://github.com/Brian-sanchez/gcba-test',
+    demo: 'https://gcba-test.vercel.app'
+  },
+  {
+    id: 4,
+    image: img5,
+    github: 'https://github.com/Brian-sanchez/pi-pokemon',
+    demo: 'https://pi-pokemon-frontend.vercel.app'
+  },
+  {
+    id: 5,
+    image: img6,
+    github: 'https://github.com/Brian-sanchez/full-stack-test',
+    demo: 'https://precious-valkyrie-e1df5b.netlify.app'
+  },
+  {
+    id: 6,
+    image: img1,
+    github: 'https://github.com/Brian-sanchez/Pi-Dogs-Brian-Sanchez',
+    demo: 'https://pi-dogs-frontend.vercel.app'
+  },
+  {
+    id: 7,
+    image: img4,
+    github: 'https://github.com/Brian-sanchez/pi-countries',
+    demo: 'https://pi-countries-frontend-87hdhew68-brian-sanchez.vercel.app'
+  },
+  {
+    id: 8,
+    image: img3,
+    github: 'https://github.com/Brian-sanchez/seleccion-argentina',
+    demo: 'https://brian-sanchez.github.io/seleccion-argentina/'
+  },
+  {
+    id: 9,
+    image: img2,
+    github: 'https://github.com/Brian-sanchez/Portfolio',
+    demo: 'https://brian-sanchez.github.io/Portfolio/'
+  }
+];
+
+export const skillsData = [
+  {
+    id: 1,
+    name: "frontend",
+    dataList: [
+      {
+        id: 1,
+        name: "HTML",
+        icon: <DiHtml5 className='skills__details-icon'/>,
+        experience: "advanced"
+      },
+      {
+        id: 2,
+        name: "JavaScript",
+        icon: <DiJavascript1 className='skills__details-icon'/>,
+        experience: "advanced"
+      },
+      {
+        id: 3,
+        name: "React",
+        icon: <DiReact className='skills__details-icon'/>,
+        experience: "advanced"
+      },
+      {
+        id: 4,
+        name: "CSS",
+        icon: <DiCss3 className='skills__details-icon'/>,
+        experience: "advanced"
+      },
+      {
+        id: 5,
+        name: "Sass",
+        icon: <DiSass className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 6,
+        name: "JQuery",
+        icon: <DiJqueryLogo className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 7,
+        name: "Dojo Toolkit",
+        icon: <DiDojo className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 8,
+        name: "Redux",
+        icon: <SiRedux className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 9,
+        name: "Bootstrap",
+        icon: <SiBootstrap className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 10,
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 11,
+        name: "Typescript",
+        icon: <SiTypescript className='skills__details-icon'/>,
+        experience: "basic"
+      }
+    ]
+  },
+  {
+    id: 2,
+    name: "backend",
+    dataList: [
+      {
+        id: 1,
+        name: "Node js",
+        icon: <DiNodejsSmall className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 2,
+        name: "Express js",
+        icon: <SiExpress className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 3,
+        name: "SQL",
+        icon: <FaDatabase className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 4,
+        name: "PostgreSQL",
+        icon: <SiPostgresql className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 5,
+        name: "MySQL",
+        icon: <GrMysql className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 6,
+        name: "Java",
+        icon: <FaJava className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 7,
+        name: "Spring Boot",
+        icon: <SiSpring className='skills__details-icon'/>,
+        experience: "basic"
+      },
+      {
+        id: 8,
+        name: "Sequelize",
+        icon: <SiSequelize className='skills__details-icon'/>,
+        experience: "basic"
+      }
+    ]
+  },
+  {
+    id: 3,
+    name: "other",
+    dataList: [
+      {
+        id: 1,
+        name: "Photoshop",
+        icon: <SiAdobephotoshop className='skills__details-icon'/>,
+        experience: "advanced"
+      },
+      {
+        id: 2,
+        name: "Visual Studio Code",
+        icon: <SiVisualstudiocode className='skills__details-icon'/>,
+        experience: "advanced"
+      },
+      {
+        id: 3,
+        name: "Eclipse",
+        icon: <DiEclipse className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 4,
+        name: "Jira Software",
+        icon: <SiJirasoftware className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 5,
+        name: "Git",
+        icon: <SiGit className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 6,
+        name: "GitHub",
+        icon: <DiGithubBadge className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 7,
+        name: "Postman",
+        icon: <SiPostman className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 8,
+        name: "Word",
+        icon: <AiFillFileWord className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 9,
+        name: "Excel",
+        icon: <AiFillFileExcel className='skills__details-icon'/>,
+        experience: "intermediate"
+      },
+      {
+        id: 8,
+        name: "IntelliJ",
+        icon: <SiIntellijidea className='skills__details-icon'/>,
+        experience: "basic"
+      }
+    ]
+  },
+  {
+    id: 4,
+    name: "soft",
+    dataList: [
+      {
+        id: 1,
+        title: "creative",
+        icon: <BsLightbulbFill className='skills__details-icon'/>,
+      },
+      {
+        id: 2,
+        title: "teamworker",
+        icon: <RiTeamFill className='skills__details-icon'/>,
+      },
+      {
+        id: 3,
+        name: "organized",
+        icon: <BiTimeFive className='skills__details-icon'/>,
+      },
+      {
+        id: 4,
+        name: "responsable",
+        icon: <FaUserTie className='skills__details-icon'/>,
+      },
+      {
+        id: 5,
+        name: "fast-learning",
+        icon: <BiBrain className='skills__details-icon'/>,
+      },
+      {
+        id: 6,
+        name: "autodidact",
+        icon: <MdComputer className='skills__details-icon'/>,
+      }
+    ]
+  }
+]
